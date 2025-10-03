@@ -1,5 +1,5 @@
-# Secure Data Submission API
-Secure Data Submission API adalah aplikasi backend berbasis Node.js yang dirancang untuk mengamankan proses pengiriman data menggunakan **AES Encryption** dan **HMAC (SHA-256)**.  
+# Sistem Pengaduan dengan Enkripsi AES & HMAC
+Proyek ini adalah implementasi REST API sederhana menggunakan Express.js untuk menerima data terenkripsi dari client. Data dienkripsi menggunakan AES dan dilindungi dengan HMAC-SHA256 untuk menjamin integritas dan keaslian data.
 Aplikasi ini saya dokumentasikan untuk mendukung pembelajaran saya dalam pengembangan aplikasi web yang berfokus pada **keamanan data**.
 
 ## Fitur
