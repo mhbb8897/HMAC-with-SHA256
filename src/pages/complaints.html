@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aduan</title>
+    <link rel="stylesheet" href="../css/complaints.css">
+    <link rel="icon" type="image/gif" href="../assets/a.gif">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet">
+</head>
+
+<body>
+    <div class="loading-overlay">
+        <div class="spinner">
+        </div>
+    </div>
+    <header>
+        <div class="logo">
+            <img src="../assets/a.gif" alt="logo-home">
+        </div>
+        <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Layanan</a></li>
+            <li><a href="#">Hubungi Kami</a></li>
+        </ul>
+    </header>
+    <main class="container">
+        <div class="modal-box">
+            <div class="head-wrapper">
+                <img src="../assets/a.gif" alt="head photong"><h1>dukan kesini!</h1>
+            </div>
+            <div class="form-wrapper">
+                <form id="uploadData">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                    <label for="no_telp">No Telepon:</label>
+                    <input type="number" id="no_telp" name="no_telp" required>
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" rows="4" required></input>
+                    <label for="address">Alamat:</label>
+                    <textarea id="address" name="address" rows="4" required></textarea>
+                    <label for="aduan">Aduan:</label>
+                    <textarea id="aduan" name="aduan" rows="4" required></textarea>
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="../js/complaints.js"></script>
+</body>
+
+</html>

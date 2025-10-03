@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.header {
+    padding: 16px;
+    background: #a12121;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content {
+    padding: 16px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.content .entry {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.content .entry:last-child {
+    border-bottom: none;
+}
+
+.entry h4 {
+    margin: 0 0 8px;
+    color: #333333;
+}
+
+.entry p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555555;
+}
+
+.footer {
+    padding: 16px;
+    text-align: center;
+    background: #f8f9fa;
+}
+
+/* Spinner */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ddd;
+    border-top: 5px solid#a12121;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.content {
+    display: none;
+    padding: 20px;
+}

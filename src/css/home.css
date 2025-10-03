@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    color: black;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
+}
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 70px;
+    gap: 2rem;
+    align-items: center;
+    padding: 10px 3rem 10px 3rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.logo img {
+    height: auto;
+    max-height: 50px;
+    border-radius: 100%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+    padding: 5px 0 5px 0;
+}
+
+header ul li::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+header ul li:hover::before {
+    width: 100%;
+    left: 0;
+    transform: translateX(0);
+}
+
+header ul li a:hover {
+    opacity: 0.7;
+}
+
+
+.complain {
+    height: 100%;
+    border: 2px solid ghostwhite;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.complain a {
+    padding: 0 10px 0 10px;
+
+}
+
+/* Main */
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.left-side {
+    width: 50%;
+    padding-left: 4rem;
+}
+
+.left-side p {
+    padding: 15px 0 15px 0;
+    line-height: 25px;
+
+}
+
+.left-side a {
+    padding: 0.8rem 1.4rem;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 500;
+    clip-path: circle(98%);
+    background: #a12121;
+}
+
+.left-side a:hover {
+    letter-spacing: 0.2rem;
+    clip-path: polygon(88% 0, 100% 50%, 89% 100%, 0% 100%, 8% 51%, 0% 0%);
+}
+
+
+.right-side {
+    width: 50%;
+}
+
+/* Spinner */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #ddd;
+    border-top: 5px solid#a12121;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.content {
+    display: none;
+    padding: 20px;
+}
