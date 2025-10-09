@@ -29,7 +29,7 @@ Request Body:
   "ciphertext": "encrypted_string",
   "hmacHex": "hmac_hash"
 }
-
+```
 Response sukses:
 ```json
 {
@@ -45,7 +45,7 @@ Response sukses:
     "timestamp": "2025-10-04T09:10:00.000Z"
   }
 }
-
+```
 Response error jika HMAC salah:
 ```json
 {
