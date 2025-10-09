@@ -63,15 +63,14 @@ Response:
   "message": "Data berhasil diambil!",
   "data": [
     {
-      "nama": "John Doe",
-      "no_telp": "08123456789",
-      "email": "john@example.com",
-      "address": "Jl. Raya No 1",
-      "aduan": "Contoh aduan",
-      "encrypted_data": "xxx",
-      "hmac": "yyy",
-      "timestamp": "2025-10-04T09:10:00.000Z",
-      "formattedTimestamp": "4 Oktober 2025 16.10.00"
+    "nama": "andi",
+    "no_telp": "083842323223",
+    "email": "andi@sabroro.com",
+    "address": "Jl. 63",
+    "aduan": "Tetangga membuat rusuh ketika malam hari",
+    "encrypted_data": "xxxx",
+    "hmac": "xxxx",
+    "timestamp": "2025-10-03T21:42:35.293Z"
     }
   ]
 }
