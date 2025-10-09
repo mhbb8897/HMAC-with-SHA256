@@ -51,7 +51,7 @@ Response error jika HMAC salah:
 {
   "message": "HMAC tidak valid!"
 }
-
+```
 ### 2. Kirim Data
 **GET** `/aduan`   
 
@@ -75,6 +75,7 @@ Response:
     }
   ]
 }
+```
 
 # Installation 🚀
 
