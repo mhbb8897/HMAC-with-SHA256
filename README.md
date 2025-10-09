@@ -99,15 +99,15 @@ Response:
 
 * **Home Page**
 
-  ![Home Page](image/flowchart-simulasi.png)
+  ![Home Page](image/home-page.png)
 
 * **Form Aduan**
 
-  ![Form Aduan](image/enkripsi.png)
+  ![Form Aduan](image/aduan-page.png)
 
 * **Data Aduan**
 
-  ![Data Aduan](image/flowchart-simulasi.png)
+  ![Data Aduan](image/data-aduan.png)
 
 * **Flowchart**
 
