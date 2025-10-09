@@ -95,7 +95,19 @@ Response:
    npm run dev dan npm run server '(Buka di 2 tab berbeda)'
    ```
 
-### 3. Flowchart dan Enkripsi Data
+### 3. Screnshoot
+
+* **Home Page**
+
+  ![Home Page](image/flowchart-simulasi.png)
+
+* **Form Aduan**
+
+  ![Form Aduan](image/enkripsi.png)
+
+* **Data Aduan**
+
+  ![Data Aduan](image/flowchart-simulasi.png)
 
 * **Flowchart**
 
