@@ -52,7 +52,7 @@ Response error jika HMAC salah:
   "message": "HMAC tidak valid!"
 }
 ```
-### 2. Kirim Data
+### 2. Ambil Data
 **GET** `/aduan`   
 
 Mengambil semua data yang sudah disimpan.
@@ -75,8 +75,7 @@ Response:
   ]
 }
 ```
-
-# Installation 🚀
+# Instalasi 🚀
 
 1. Clone repository ini:
 
@@ -99,7 +98,7 @@ Response:
 
 * **Home Page**
 
-  ![Home Page](image/home-page.png)
+  ![Home Page](image/homepage.png)
 
 * **Form Aduan**
 
@@ -109,7 +108,7 @@ Response:
 
   ![Data Aduan](image/data-aduan.png)
 
-* **Flowchart**
+* **Flowchart Alur Program**
 
   ![Flowchart](image/flowchart-simulasi.png)
 
