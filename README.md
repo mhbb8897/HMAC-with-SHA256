@@ -26,8 +26,8 @@ Mengirim data terenkripsi ke server.
 Request Body:
 ```json
 {
-  "ciphertext": "encrypted_string",
-  "hmacHex": "hmac_hash"
+  "hmacHex": "hmacHex",
+  "ciphertext": "ciphertext"
 }
 ```
 Response sukses:
@@ -82,7 +82,7 @@ Response:
 1. Clone repository ini:
 
    ```bash
-   git clone https://github.com/mhbb8897/HMAC-with-SHA256.git)
+   git clone https://github.com/mhbb8897/HMAC-with-SHA256.git
    ```
 
 2. Install dependencies:
@@ -95,3 +95,14 @@ Response:
    ```bash
    npm run dev
    ```
+
+### 3. Flowchart dan Enkripsi Data
+
+* **Flowchart**
+
+  ![Flowchart](image/flowchart-simulasi.png)
+
+* **Data pengadu yang di Enkripsi beserta HMAC Signature**
+
+  ![Enkripsi](image/enkripsi.png)
+
