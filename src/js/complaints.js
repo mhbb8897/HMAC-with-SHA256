@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .addEventListener("submit", async (event) => {
       event.preventDefault();
 
-      const secretKey = "ssss"; // Secretkey for HMAC and AES
+      const secretKey = "sss"; // Secretkey for HMAC and AES
 
       const data = {
         nama: document.getElementById("nama").value,

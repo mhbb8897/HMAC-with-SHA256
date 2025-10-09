@@ -1,0 +1,12 @@
+[
+  {
+    "nama": "Xena",
+    "no_telp": "08384626326",
+    "email": "xena@proton.me",
+    "address": "Jl. 63",
+    "aduan": "Tetangga membuat rusuh di malam hari",
+    "encrypted_data": "U2FsdGVkX19r4E/ds6oaAMCdBNB0FvELf9DtaBXmGZoi5VYLidC7Cb7+s5EZZHe8L0osSxatoPmfcVTWCOxlOvaIdxJc2gTwyomXTaWDvImJK8prPAT3TFRZyUadDmv49QUKsslemLnQ9hd3l66qpSCxR8KXpOb9FcFeWJXPVupJpxltxGnokO6iOn9R2FQUbvf7ExCkzLVb4kWigWiqPrkbBvn5h9Gm78m9aYA49lQtxEU0uc1IkPcQNEnxYvYE",
+    "hmac": "bccc0e5e72ccd9352466d0205760c361a6c516a95e585482c2dbeb2cf4ab26e6",
+    "timestamp": "2025-10-09T21:16:58.108Z"
+  }
+]

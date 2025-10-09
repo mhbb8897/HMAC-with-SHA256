@@ -91,8 +91,8 @@ Response:
    ```
 
 3. Jalankan server
-   ```bash
-   npm run dev
+      ```bash
+   npm run dev dan npm run server '(Buka di 2 tab berbeda)'
    ```
 
 ### 3. Flowchart dan Enkripsi Data
